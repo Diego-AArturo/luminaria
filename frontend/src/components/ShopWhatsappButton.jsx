@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const ShopWhatsappButton = () => {
-  const phoneNumber = "+57318868359"; // Reemplaza con tu número de WhatsApp
+  const phoneNumber = "+573207257083"; // Reemplaza con tu número de WhatsApp
   const message = "Hola, me gustaría obtener más información sobre sus productos.";
 
   return (
