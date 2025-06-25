@@ -55,7 +55,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 font-sans antialiased">
+    <div className=" min-h-screen bg-gray-50 font-sans antialiased">
       <ShopHeader
         onCartClick={() => setIsCartOpen(true)}
         cartItemCount={cartItems.reduce((count, item) => count + item.quantity, 0)}
@@ -63,7 +63,7 @@ function App() {
         searchTerm={searchTerm}
       />
 
-      <main className="container mx-auto px-4 py-8 pt-24">
+      <main className="container mx-auto px-4 py-8 pt-24 ">
         <ShopFilterButtons
           categories={categories}
           onFilterChange={setActiveFilter}

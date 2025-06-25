@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const ShopWhatsappButton = () => {
-  const phoneNumber = "5215512345678"; // Reemplaza con tu número de WhatsApp
+  const phoneNumber = "+57318868359"; // Reemplaza con tu número de WhatsApp
   const message = "Hola, me gustaría obtener más información sobre sus productos.";
 
   return (
@@ -12,9 +12,7 @@ export const ShopWhatsappButton = () => {
       className="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-110 z-40"
       aria-label="Contactar por WhatsApp"
     >
-      <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.911C.11 6.53 6.047.064 13.542.064c3.668 0 7.14 1.436 9.793 4.091 2.653 2.655 4.09 6.129 4.09 9.796 0 7.5-5.937 13.436-13.432 13.436h-.001c-2.109 0-4.16-.549-5.979-1.594L.057 24zm6.597-3.807c1.676.995 3.66 1.539 5.662 1.539h.001c6.075 0 10.994-4.92 10.994-10.993 0-3.037-1.2-5.882-3.35-8.03-2.15-2.147-4.995-3.348-8.03-3.348-6.074 0-10.993 4.92-10.993 10.993 0 1.962.547 3.925 1.594 5.643l-1.687 6.163 6.11-1.62zM16.557 12.102c-.14-.249-.757-.374-1.132-.187-.372.187-.65.375-.87.407-.22.034-.42-.083-.61-.187-.75-.416-1.808-.97-2.834-1.75-.817-.61-1.37-1.465-1.53-1.75-.16-.285-.01-.445.11-.694.12-.249.26-.445.374-.61.11-.17.187-.374.27-.561.084-.187.043-.375-.02-.561-.063-.187-.56-.97-.775-1.312-.214-.342-.374-.285-.561-.285-.187 0-.4-.008-.61-.008-.21 0-.552.074-.84.375-.285.292-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.215 3.072.15.198 2.076 3.188 5.02 4.438 2.48.995 3.017.798 3.746.748.729-.05 1.808-.746 2.005-1.478.196-.732.196-1.354.13-1.478-.065-.124-.249-.198-.5-.323z"/>
-      </svg>
+      <img src="/src/assets/whatsapp-logo-thin-svgrepo-com.svg" alt="WhatsApp" className="w-8 h-8" />
     </a>
   );
 };

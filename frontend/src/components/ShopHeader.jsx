@@ -2,9 +2,15 @@ import React from 'react';
 
 export const ShopHeader = ({ onCartClick, cartItemCount, onSearchChange, searchTerm }) => {
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white bg-opacity-90 backdrop-blur-sm z-50 shadow-sm">
+    <header className="fixed top-0 left-0 right-0 text-white z-50 shadow-sm"
+      style={{
+        backgroundImage: "linear-gradient(to right, #567997 80%, #C9E287 100%)",
+        backdropFilter: "blur(4px)",
+        backgroundColor: "rgba(255, 255, 255, 0.9)"
+      }}
+    >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-gray-900">LUMINARIAN Kerin</h1>
+        <h1 className="text-2xl font-bold text-white-900">LUMINARIAN Kerin</h1>
         <div className="flex items-center space-x-4">
           <div className="relative">
             <input
