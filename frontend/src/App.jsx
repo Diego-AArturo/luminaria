@@ -55,7 +55,7 @@ function App() {
   };
 
   return (
-    <div className=" min-h-screen bg-gray-50 font-sans antialiased">
+    <div className="min-h-screen overflow-x-hidden bg-gray-50 font-sans antialiased">
       <ShopHeader
         onCartClick={() => setIsCartOpen(true)}
         cartItemCount={cartItems.reduce((count, item) => count + item.quantity, 0)}

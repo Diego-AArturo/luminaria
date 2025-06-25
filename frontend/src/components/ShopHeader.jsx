@@ -4,7 +4,7 @@ export const ShopHeader = ({ onCartClick, cartItemCount, onSearchChange, searchT
   return (
     <header className="fixed top-0 left-0 right-0 text-white z-50 shadow-sm"
       style={{
-        backgroundImage: "linear-gradient(to right, #567997 80%, #C9E287 100%)",
+        backgroundImage: "linear-gradient(to right, #567997 80%,rgb(247, 240, 108) 100%)",
         backdropFilter: "blur(4px)",
         backgroundColor: "rgba(255, 255, 255, 0.9)"
       }}

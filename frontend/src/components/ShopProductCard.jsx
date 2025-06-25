@@ -11,7 +11,7 @@ export const ShopProductCard = ({ product, onAddToCart }) => {
         <p className="text-xl font-bold text-gray-800 mb-4">{formatPrice(product.price)}</p>
         <button
           onClick={() => onAddToCart(product)}
-          className="w-full bg-black text-white py-2 rounded-lg hover:bg-gray-800 transition-colors duration-300"
+          className="w-full bg-[black] text-white py-2 rounded-lg hover:bg-gray-800 transition-colors duration-300"
         >
           Agregar al Carrito
         </button>
