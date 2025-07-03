@@ -10,7 +10,8 @@ export const ShopHeader = ({ onCartClick, cartItemCount, onSearchChange, searchT
       }}
     >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-white-900">LUMINARIAN Kerin</h1>
+        {/* <h1 className="text-2xl font-bold text-white-900">Luminaria Kerin</h1> */}
+        <img src="src\assets\Logo_horizontal.png" className='object-cover h-20'/>
         <div className="flex items-center space-x-4">
           <div className="relative">
             <input
